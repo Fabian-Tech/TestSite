@@ -27,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "scripts": {
+    "forestry:preview": "gatsby develop -H 0.0.0.0 -p 8080"
   }
 }
