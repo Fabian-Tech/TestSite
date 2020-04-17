@@ -10,7 +10,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: src\pages\index.js
+  path: pages\index.js
   label: Index
 upload_dir: uploads
 public_path: "/uploads"
