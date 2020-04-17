@@ -5,9 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: index
+  path: src\pages\index.js
   label: Index
-  match: "**/*"
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
