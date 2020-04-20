@@ -5,12 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: ''
-  label: test
+  path: static
+  label: static
   create: all
   match: "*"
 - type: document
-  path: pages\index.js
+  path: "\\src\\pages\\index.js"
   label: Index
 upload_dir: uploads
 public_path: "/uploads"
