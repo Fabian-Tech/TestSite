@@ -9,6 +9,8 @@ sections:
   label: static
   create: all
   match: "**/*"
+- type: heading
+  label: LabelTest
 - type: document
   path: "\\src\\pages\\index.js"
   label: Index
